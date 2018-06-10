@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+}
+.container {
+  background: green;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: 100vh;
+  grid-gap: 2vw;
+  background-color: green;
+  justify-content: space-around;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid-item {
+  outline: 2px solid red;
+}
+
+.block-title {
+  background-color: red;
+}
+
+.block-footer {
+  background-color: #eecf42;
+}
